@@ -1,8 +1,9 @@
 def bar():
     return "bar"
 
-def test_bar_returns_bar():
-    assert bar() == "bar"
+class TestBar:
+    def test_bar_returns_bar(self):
+        self.assertEqual(bar(), "bar")
 
-def test_bar_does_not_return_foo():
-    assert bar() != "foo"
+    def test_bar_does_not_return_foo(self):
+        self.assertNotEqual(bar(), "foo")
