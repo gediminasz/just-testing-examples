@@ -1,0 +1,10 @@
+{
+    "justTesting.baseCommand": "python manage.py test",
+    "justTesting.runFileCommand": "{base} {module}",
+    "justTesting.runOnCursorCommand": "{base} {module}.{className}.{testName}",
+    "justTesting.expressions": {
+        "className": {
+            "regex": "class (.+TestCase)\\("
+        }
+    }
+}
