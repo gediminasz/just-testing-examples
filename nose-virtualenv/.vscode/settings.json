@@ -1,0 +1,4 @@
+{
+    "justTesting.baseCommand": "D:\\venv\\nose\\Scripts\\python.exe -m nose",
+    "justTesting.runOnCursorCommand": "{base} {fileName} -m {testName}",
+}
