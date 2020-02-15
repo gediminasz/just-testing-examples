@@ -1,5 +1,6 @@
 {
     "justTesting.baseCommand": "pipenv run python manage.py test",
+    "justTesting.runAllCommand": "{base}",
     "justTesting.runFileCommand": "{base} {module}",
     "justTesting.runOnCursorCommand": "{base} {module}.{className}.{testName}",
     "justTesting.expressions": {
