@@ -1,4 +1,5 @@
 {
     "justTesting.baseCommand": "python -m unittest",
+    "justTesting.runAllCommand": "{base}",
     "justTesting.runOnCursorCommand": "{base} {fileName} -k {testName}"
 }

@@ -1,0 +1,4 @@
+{
+    "justTesting.baseCommand": "python -m pytest -v",
+    "justTesting.runAllCommand": "{base}",
+}

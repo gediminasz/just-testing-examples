@@ -1,5 +1,6 @@
 {
     "justTesting.baseCommand": "jest",
+    "justTesting.runAllCommand": "{base}",
     "justTesting.runOnCursorRegex": "test\\((.+),",
     "justTesting.runOnCursorCommand": "{base} -t {testName}"
 }

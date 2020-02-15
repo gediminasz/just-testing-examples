@@ -1,4 +1,5 @@
 {
     "justTesting.baseCommand": "rspec",
+    "justTesting.runAllCommand": "{base}",
     "justTesting.runOnCursorCommand": "{base} {fileName}:{line}"
 }
