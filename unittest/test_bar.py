@@ -1,7 +1,9 @@
 from unittest import TestCase
 
+
 def bar():
     return "bar"
+
 
 class BarTestCase(TestCase):
     def test_bar_returns_bar(self):

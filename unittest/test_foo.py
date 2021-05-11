@@ -1,7 +1,9 @@
 from unittest import TestCase
 
+
 def foo():
     return "foo"
+
 
 class FooTestCase(TestCase):
     def test_foo_returns_foo(self):
