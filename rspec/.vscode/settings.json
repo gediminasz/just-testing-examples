@@ -1,5 +1,5 @@
 {
-    "justTesting.baseCommand": "rspec",
+    "justTesting.baseCommand": "rspec -f d",
     "justTesting.runAllCommand": "{base}",
     "justTesting.runOnCursorCommand": "{base} {fileName}:{line}"
 }
