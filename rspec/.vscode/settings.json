@@ -1,5 +1,5 @@
 {
-    "justTesting.baseCommand": "rspec -f d",
+    "justTesting.baseCommand": "rspec --format documentation",
     "justTesting.runAllCommand": "{base}",
     "justTesting.runOnCursorCommand": "{base} {fileName}:{line}"
 }
