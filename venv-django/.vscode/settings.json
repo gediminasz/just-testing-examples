@@ -1,5 +1,5 @@
 {
-    "justTesting.baseCommand": ".venv/bin/python manage.py test",
+    "justTesting.baseCommand": ".venv/bin/python manage.py test -v 2",
     "justTesting.runAllCommand": "{base}",
     "justTesting.runFileCommand": "{base} {module}",
     "justTesting.runOnCursorCommand": "{base} {module}.{className}.{testName}",
