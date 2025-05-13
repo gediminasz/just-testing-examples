@@ -1,4 +1,4 @@
 {
-    "justTesting.baseCommand": "pytest -v",
+    "justTesting.baseCommand": "uv run --with pytest pytest -v",
     "justTesting.runAllCommand": "{base}"
 }
