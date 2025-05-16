@@ -1,6 +1,7 @@
 def bar():
     return "bar"
 
+
 class TestBar:
     def test_bar_returns_bar(self):
         assert bar() == "bar"
