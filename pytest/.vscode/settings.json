@@ -1,4 +1,6 @@
 {
     "justTesting.baseCommand": "uv run --with pytest pytest -v",
-    "justTesting.runAllCommand": "{base}"
+    "justTesting.runAllCommand": "{base} {root}",
+    "justTesting.runFileCommand": "{base} {root}/{fileName}",
+    "justTesting.runOnCursorCommand": "{base} {root}/{fileName} -k {testName}"
 }

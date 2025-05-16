@@ -1,5 +1,4 @@
-def bar():
-    return "bar"
+from bar import bar
 
 
 class TestBar:
