@@ -1,5 +1,5 @@
 {
-    "justTesting.baseCommand": "uv run --with pytest pytest -v",
+    "justTesting.baseCommand": "SPAM=ham uv run --with pytest pytest -v",
     "justTesting.runAllCommand": "{base} {root}",
     "justTesting.runFileCommand": "{base} {root}/{fileName}",
     "justTesting.runOnCursorCommand": "{base} {root}/{fileName} -k {testName}"
